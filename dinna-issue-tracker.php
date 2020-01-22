@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: Issue Tracker
+* Plugin Name: Dinna Issue Tracker
 * Plugin URI: https://dinnaonline.com.au/
 * Description: This plugin manages and maintains a list of issues that are raised by customers online.
 * Version: 1.0
