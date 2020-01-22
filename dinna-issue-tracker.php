@@ -7,3 +7,6 @@
 * Author: Witness Dinna
 * Author URI: http://dinnaonline.com.au/
 **/
+
+defined( 'ABSPATH' ) or die( 'Ooops! You do not have access to this file.' );
+
