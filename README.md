@@ -1,18 +1,15 @@
-=== Dinna Issue Tracker ===
-Contributors: dinna
-Tags: issue,bugs,tracker
-Requires at least: 5.2 or higher
-Tested up to: 5.3.2
-Requires PHP: 7.2 or higher
-License: GPLv3
-License URI: https://www.gnu.org/licenses/quick-guide-gplv3.html
+## Getting Started
 
-A plugin to enable customers to capture their issues, bugs and support concerns online
-
-== Description ==
 Dinna Issue Tracker wordpress plugin enables customer for a software house to log their queires, issues and bugs. The logged issues can be viewed by the development from the wordpress administration panel
 
-== Installation ==
+### Prerequisites
+
+Requires at least: Wordpress 5.2 or higher
+Tested up to: Wordpress 5.3.2
+Requires PHP: 7.2 or higher
+
+### Installing
+
 Dinna Issue Traker is easy to install
 1. Copy and extract from the zipped plugin file and paste in /wp-content/plugins folder
 2. Make sure the plugin folder remains unchanged dinna-issue-tracker
@@ -21,10 +18,23 @@ Dinna Issue Traker is easy to install
 5. You can use the form in your pages or posts by pasting the shortcode [dinna_issue_form]
 6. Go to your page or post, a form will appear with fields that are required to be field in by the customer
 
-== Screenshots ==
 1. Activating the Plugin
 2. Using the shortcode in a Page
 3. Preview of issue form
 
-== Changelog ==
+
+## Contributing
+
+Witness Dinna
+
+## Versioning
+
 Version 1.0 - Added the tables to store data and shortcode for use in pages and posts
+
+## License
+
+This project is licensed under the GNU - GPLv3
+
+## Acknowledgments
+
+* Thumbs up to Alecad for the video tutorials on youtube, Tendai D Chihobvu for the assistance in debugging my php scripts
