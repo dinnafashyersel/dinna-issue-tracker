@@ -32,6 +32,10 @@ Dinna Issue Traker is easy to install
 
 ![screen3](https://user-images.githubusercontent.com/59632060/72974530-cf18e680-3dd7-11ea-8c71-4b133ced429f.JPG)
 
+4. Issue Management View
+
+![screen4](https://user-images.githubusercontent.com/59632060/72985822-82d9a080-3def-11ea-94d5-8eba88450883.JPG)
+
 ## Contributing
 
 Witness Dinna
