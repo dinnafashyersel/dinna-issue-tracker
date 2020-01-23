@@ -18,10 +18,19 @@ Dinna Issue Traker is easy to install
 5. You can use the form in your pages or posts by pasting the shortcode [dinna_issue_form]
 6. Go to your page or post, a form will appear with fields that are required to be field in by the customer
 
+### Examples 
+
 1. Activating the Plugin
+
+![screen1](https://user-images.githubusercontent.com/59632060/72974407-9ed14800-3dd7-11ea-9f6f-1c7bcc0fb797.JPG)
+
 2. Using the shortcode in a Page
+
+![sceen2](https://user-images.githubusercontent.com/59632060/72974480-ba3c5300-3dd7-11ea-80f6-d0784d1c3f0f.JPG)
+
 3. Preview of issue form
 
+![screen3](https://user-images.githubusercontent.com/59632060/72974530-cf18e680-3dd7-11ea-8c71-4b133ced429f.JPG)
 
 ## Contributing
 
