@@ -56,8 +56,8 @@ function html_form_code() {
     echo '<textarea rows="10" cols="35" name="customer_message">' . ( isset( $_POST["customer_message"] ) ? esc_attr( $_POST["customer_message"] ) : '' ) . '</textarea>';
     echo '</p>';
     echo '<p>';
-    echo 'Issue Priority (required) <br />';
-    echo '<input type="text" name="issue_priority" pattern="[a-zA-Z ]+" value="' . ( isset( $_POST["issue_priority"] ) ? esc_attr( $_POST["issue_priority"] ) : '' ) . '" size="40" />';
+    echo 'Issue Priority (required) (1=low and 5=critical) <br />';
+    echo '<input type="text" name="issue_priority" placeholder="1,2,3,4,5" pattern="[a-zA-Z ]+" value="' . ( isset( $_POST["issue_priority"] ) ? esc_attr( $_POST["issue_priority"] ) : '' ) . '" size="40" />';
     echo '</p>';
     echo '<p><input type="submit" name="cf-submitted" value="Send"/></p>';
     echo '</form>';
