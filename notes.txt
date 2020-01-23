@@ -1,3 +1,0 @@
-The Index File
-
-Added the index.php file to protect the plugin files from direct access
