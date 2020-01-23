@@ -98,3 +98,17 @@ function form_shortcode() {
 }
 
 add_shortcode( 'dinna_issue_form', 'form_shortcode' );
+
+function issues_menu()
+{
+    global $wpdb;
+    include 'issues-admin.php';
+}
+ 
+function issues_admin_actions()
+{
+    add_options_page("Customer Issues", "Customer Issues", 1,
+"Dinna-Issue-Tracker", "issues_menu");
+}
+ 
+add_action('admin_menu', 'issues_admin_actions');
