@@ -89,7 +89,7 @@ function save_customer_data() {
     }
 }
 
-function cf_shortcode() {
+function form_shortcode() {
     ob_start();
     save_customer_data();
     html_form_code();
@@ -97,4 +97,4 @@ function cf_shortcode() {
     return ob_get_clean();
 }
 
-add_shortcode( 'dinna_issue_form', 'cf_shortcode' );
+add_shortcode( 'dinna_issue_form', 'form_shortcode' );
