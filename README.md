@@ -6,7 +6,7 @@ Dinna Issue Tracker wordpress plugin enables customer for a software house to lo
 
 Requires at least: Wordpress 5.2 or higher
 Tested up to: Wordpress 5.3.2
-Requires PHP: 7.2 or higher
+Requires PHP: 5.6.20 or higher
 
 ### Installing
 
