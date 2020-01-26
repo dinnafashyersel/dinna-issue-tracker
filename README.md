@@ -22,7 +22,7 @@ Dinna Issue Traker is easy to install
 
 1. Activating the Plugin
 
-![screen1](https://user-images.githubusercontent.com/59632060/72974407-9ed14800-3dd7-11ea-9f6f-1c7bcc0fb797.JPG)
+![screen5](https://user-images.githubusercontent.com/59632060/73134093-ef94ab00-403a-11ea-9a31-aab4959ed7c1.JPG)
 
 2. Using the shortcode in a Page
 
