@@ -107,8 +107,19 @@ function issues_menu()
  
 function issues_admin_actions()
 {
-    add_options_page("Customer Issues", "Customer Issues", 1,
-"Dinna-Issue-Tracker", "issues_menu");
+    add_options_page("Customer Issues", "Customer Issues", 1, "Dinna-Issue-Tracker", "issues_menu");
 }
  
 add_action('admin_menu', 'issues_admin_actions');
+
+function dinna_plugin_action_links( $links ) {
+
+    $links = array_merge( array(
+        '<a href="' . esc_url( admin_url( '/options-general.php?page=Dinna-Issue-Tracker' ) ) . '">' . __( 'View Issues', 'textdomain' ) . '</a>',
+        '<a href="' . esc_url( admin_url( '/options-general.php' ) ) . '">' . __( 'Edit', 'textdomain' ) . '</a>'
+    ), $links );
+
+    return $links;
+
+}
+add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'dinna_plugin_action_links' );
